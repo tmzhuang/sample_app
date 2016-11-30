@@ -1,24 +1,25 @@
-# README
+# RoR Sample App Tutorial
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is made follwing the book found [here](https://www.railstutorial.org/book/static_pages).
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+Install the needed gems:
+```
+bundle install --without production
+```
 
-* System dependencies
+Migrate the db:
+```
+rails db:migrate
+```
 
-* Configuration
+Run tests:
+```
+rails test
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run server locally:
+```
+rails server
+```
